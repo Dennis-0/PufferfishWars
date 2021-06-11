@@ -1,0 +1,8 @@
+{
+  "commands.trigger.failed.unprimed": "This action is not available anymore",
+  "container.crafting": "",
+  "container.inventory": "",
+  "item.minecraft.arrow": "Pufferfish",
+  "item.minecraft.tipped_arrow.effect.empty": "Pufferfish",
+  "item.durability": "Shots remaining: %s / %s"
+}
