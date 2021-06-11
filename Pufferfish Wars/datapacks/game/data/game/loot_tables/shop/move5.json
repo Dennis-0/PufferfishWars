@@ -27,11 +27,10 @@
                   "bold": false,
                   "italic": false
                 },
-                { 
-                  "score": 
-                  { 
-                    "name": "@s", 
-                    "objective": "buy_move" 
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "buy_move"
                   },
                   "color": "gray",
                   "bold": false,
@@ -43,7 +42,6 @@
                   "bold": false,
                   "italic": false
                 }
-                
               ]
             },
             {
@@ -59,27 +57,27 @@
                         "objective": "buy_health"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Increase your",
-                  "color":"white",
+                  "text": "Increase your",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"maximum travel distance",
-                  "color":"white",
+                  "text": "maximum travel distance",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"per turn by 10%",
-                  "color":"white",
+                  "text": "per turn by 10%",
+                  "color": "white",
                   "italic": false
                 }
               ]

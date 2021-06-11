@@ -16,17 +16,17 @@
               "entity": "this",
               "name": [
                 {
-                  "text":"Desert",
-                  "color":"yellow",
-                  "bold":true,
-                  "italic":false
+                  "text": "Desert",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
                 },
                 {
-                  "text":" - Terrain",
-                  "color":"gray",
-                  "bold":false,
-                  "italic":false
-                }       
+                  "text": " - Terrain",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
               ]
             },
             {
@@ -34,16 +34,16 @@
               "entity": "this",
               "lore": [
                 {
-                  "text":"Set the terrain generation to Desert",
-                  "color":"white",
+                  "text": "Set the terrain generation to Desert",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Height difference: Low",
-                  "color":"gray",
+                  "text": "Height difference: Low",
+                  "color": "gray",
                   "italic": false
                 }
               ]

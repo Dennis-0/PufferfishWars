@@ -36,7 +36,7 @@
                         "objective": "shower"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -50,27 +50,27 @@
                         "objective": "shower"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Shoot a pufferfish that",
-                  "color":"white",
+                  "text": "Shoot a pufferfish that",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"splits mid-air, to shower",
-                  "color":"white",
+                  "text": "splits mid-air, to shower",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"down on your opponents",
-                  "color":"white",
+                  "text": "down on your opponents",
+                  "color": "white",
                   "italic": false
                 }
               ]

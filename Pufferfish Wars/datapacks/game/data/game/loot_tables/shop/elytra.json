@@ -36,27 +36,27 @@
                         "objective": "buy_elytra"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"For escaping high places,",
-                  "color":"white",
+                  "text": "For escaping high places,",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"flying does not add to",
-                  "color":"white",
+                  "text": "flying does not add to",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"your travel distance",
-                  "color":"white",
+                  "text": "your travel distance",
+                  "color": "white",
                   "italic": false
                 }
               ]

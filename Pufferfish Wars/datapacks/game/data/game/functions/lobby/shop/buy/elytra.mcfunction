@@ -10,4 +10,4 @@ playsound minecraft:item.armor.equip_turtle master @s
 # refresh items in inventory
 function game:lobby/give_items
 
-replaceitem entity @s armor.chest minecraft:elytra{Enchantments:[{id:"minecraft:binding_curse",lvl:1}],HideFlags:1,Unbreakable:1b}
+item replace entity @s armor.chest with minecraft:elytra{Enchantments:[{id:"minecraft:binding_curse",lvl:1}],HideFlags:1,Unbreakable:1b}

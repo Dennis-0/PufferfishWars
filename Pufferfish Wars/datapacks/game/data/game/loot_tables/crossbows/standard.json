@@ -28,21 +28,21 @@
               "entity": "this",
               "lore": [
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Shoot a pufferfish that explodes",
-                  "color":"white",
+                  "text": "Shoot a pufferfish that explodes",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"on impact with a player, or shortly",
-                  "color":"white",
+                  "text": "on impact with a player, or shortly",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"after touching the ground",
-                  "color":"white",
+                  "text": "after touching the ground",
+                  "color": "white",
                   "italic": false
                 }
               ]

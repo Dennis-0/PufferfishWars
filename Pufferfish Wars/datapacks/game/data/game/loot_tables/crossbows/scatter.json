@@ -36,7 +36,7 @@
                         "objective": "scatter"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -50,47 +50,47 @@
                         "objective": "scatter"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Shoot a pufferfish that",
-                  "color":"white",
+                  "text": "Shoot a pufferfish that",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"explodes on impact with",
-                  "color":"white",
+                  "text": "explodes on impact with",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"a player, or shortly after",
-                  "color":"white",
+                  "text": "a player, or shortly after",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"touching the ground, ",
-                  "color":"white",
+                  "text": "touching the ground, ",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"that scatters a couple",
-                  "color":"white",
+                  "text": "that scatters a couple",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"pufferfishes in any",
-                  "color":"white",
+                  "text": "pufferfishes in any",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"direction on explosion",
-                  "color":"white",
+                  "text": "direction on explosion",
+                  "color": "white",
                   "italic": false
                 }
               ]

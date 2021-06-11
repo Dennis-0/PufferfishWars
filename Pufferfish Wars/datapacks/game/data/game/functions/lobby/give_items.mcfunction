@@ -3,18 +3,18 @@
 clear @s
 
 # colors
-replaceitem entity @s inventory.0 minecraft:red_stained_glass_pane{Red:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Red","color":"red","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.1 minecraft:orange_stained_glass_pane{Orange:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Orange","color":"gold","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.2 minecraft:yellow_stained_glass_pane{Yellow:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Yellow","color":"yellow","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.3 minecraft:lime_stained_glass_pane{Lime:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Lime","color":"green","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.12 minecraft:green_stained_glass_pane{Green:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Green","color":"dark_green","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.21 minecraft:cyan_stained_glass_pane{Cyan:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Cyan","color":"dark_aqua","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.20 minecraft:light_blue_stained_glass_pane{Aqua:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Aqua","color":"aqua","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.19 minecraft:blue_stained_glass_pane{Blue:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Blue","color":"blue","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.18 minecraft:purple_stained_glass_pane{Purple:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Purple","color":"dark_purple","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.9 minecraft:pink_stained_glass_pane{Pink:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Pink","color":"light_purple","bold":true,"italic":false}]'}}
-replaceitem entity @s inventory.10 minecraft:white_stained_glass_pane{White:1b,display:{Name:'[{"text":"Colors are purely visual,","color":"dark_gray"}]',Lore:['{"text":"players with the same color","color":"dark_gray"}','{"text":"are not on the same team","color":"dark_gray"}']}}
-replaceitem entity @s inventory.11 minecraft:white_stained_glass_pane{White:1b,display:{Name:'[{"text":"Colors are purely visual,","color":"dark_gray"}]',Lore:['{"text":"players with the same color","color":"dark_gray"}','{"text":"are not on the same team","color":"dark_gray"}']}}
+item replace entity @s inventory.0 with minecraft:red_stained_glass_pane{Red:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Red","color":"red","bold":true,"italic":false}]'}}
+item replace entity @s inventory.1 with minecraft:orange_stained_glass_pane{Orange:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Orange","color":"gold","bold":true,"italic":false}]'}}
+item replace entity @s inventory.2 with minecraft:yellow_stained_glass_pane{Yellow:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Yellow","color":"yellow","bold":true,"italic":false}]'}}
+item replace entity @s inventory.3 with minecraft:lime_stained_glass_pane{Lime:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Lime","color":"green","bold":true,"italic":false}]'}}
+item replace entity @s inventory.12 with minecraft:green_stained_glass_pane{Green:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Green","color":"dark_green","bold":true,"italic":false}]'}}
+item replace entity @s inventory.21 with minecraft:cyan_stained_glass_pane{Cyan:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Cyan","color":"dark_aqua","bold":true,"italic":false}]'}}
+item replace entity @s inventory.20 with minecraft:light_blue_stained_glass_pane{Aqua:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Aqua","color":"aqua","bold":true,"italic":false}]'}}
+item replace entity @s inventory.19 with minecraft:blue_stained_glass_pane{Blue:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Blue","color":"blue","bold":true,"italic":false}]'}}
+item replace entity @s inventory.18 with minecraft:purple_stained_glass_pane{Purple:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Purple","color":"dark_purple","bold":true,"italic":false}]'}}
+item replace entity @s inventory.9 with minecraft:pink_stained_glass_pane{Pink:1b,display:{Name:'[{"text":"▶ ","color":"white","italic":false},{"text":"Join ","color":"gray","bold":false,"italic":false},{"text":"Pink","color":"light_purple","bold":true,"italic":false}]'}}
+item replace entity @s inventory.10 with minecraft:white_stained_glass_pane{White:1b,display:{Name:'[{"text":"Colors are purely visual,","color":"dark_gray"}]',Lore:['{"text":"players with the same color","color":"dark_gray"}','{"text":"are not on the same team","color":"dark_gray"}']}}
+item replace entity @s inventory.11 with minecraft:white_stained_glass_pane{White:1b,display:{Name:'[{"text":"Colors are purely visual,","color":"dark_gray"}]',Lore:['{"text":"players with the same color","color":"dark_gray"}','{"text":"are not on the same team","color":"dark_gray"}']}}
 
 # shop
 loot replace entity @s inventory.15 loot game:shop/info
@@ -41,4 +41,4 @@ execute if score @s buy_move matches 6..7 run loot replace entity @s inventory.2
 execute if score @s buy_move matches 8..9 run loot replace entity @s inventory.23 loot game:shop/move5
 
 # elytra
-replaceitem entity @s[tag=elytra] armor.chest minecraft:elytra{Enchantments:[{id:"minecraft:binding_curse",lvl:1}],HideFlags:1,Unbreakable:1b}
+item replace entity @s[tag=elytra] armor.chest with minecraft:elytra{Enchantments:[{id:"minecraft:binding_curse",lvl:1}],HideFlags:1,Unbreakable:1b}

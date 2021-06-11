@@ -27,11 +27,10 @@
                   "bold": false,
                   "italic": false
                 },
-                { 
-                  "score": 
-                  { 
-                    "name": "@s", 
-                    "objective": "buy_health" 
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "buy_health"
                   },
                   "color": "gray",
                   "bold": false,
@@ -42,7 +41,7 @@
                   "color": "gray",
                   "bold": false,
                   "italic": false
-                }                
+                }
               ]
             },
             {
@@ -58,27 +57,27 @@
                         "objective": "buy_health"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Increase your",
-                  "color":"white",
+                  "text": "Increase your",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"maximum health",
-                  "color":"white",
+                  "text": "maximum health",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"by 1 ❤",
-                  "color":"white",
+                  "text": "by 1 ❤",
+                  "color": "white",
                   "italic": false
                 }
               ]

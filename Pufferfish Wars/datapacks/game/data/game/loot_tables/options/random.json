@@ -16,17 +16,17 @@
               "entity": "this",
               "name": [
                 {
-                  "text":"Random",
-                  "color":"blue",
-                  "bold":true,
-                  "italic":false
+                  "text": "Random",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
                 },
                 {
-                  "text":" - Terrain",
-                  "color":"gray",
-                  "bold":false,
-                  "italic":false
-                }       
+                  "text": " - Terrain",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
               ]
             },
             {
@@ -34,18 +34,18 @@
               "entity": "this",
               "lore": [
                 {
-                  "text":"Set the terrain generation to Random",
-                  "color":"white",
+                  "text": "Set the terrain generation to Random",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"for each round",
-                  "color":"white",
+                  "text": "for each round",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"(Forest, Mountain, or Desert)",
-                  "color":"gray",
+                  "text": "(Forest, Mountain, or Desert)",
+                  "color": "gray",
                   "italic": false
                 }
               ]

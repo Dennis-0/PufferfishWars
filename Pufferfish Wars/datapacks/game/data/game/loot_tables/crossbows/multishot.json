@@ -36,7 +36,7 @@
                         "objective": "multishot"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -50,32 +50,32 @@
                         "objective": "multishot"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Shoot 3 pufferfishes that",
-                  "color":"white",
+                  "text": "Shoot 3 pufferfishes that",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"explode on impact with",
-                  "color":"white",
+                  "text": "explode on impact with",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"a player, or shortly after",
-                  "color":"white",
+                  "text": "a player, or shortly after",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"touching the ground",
-                  "color":"white",
+                  "text": "touching the ground",
+                  "color": "white",
                   "italic": false
                 }
               ]

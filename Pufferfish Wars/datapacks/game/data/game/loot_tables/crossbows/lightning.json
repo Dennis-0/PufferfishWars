@@ -36,7 +36,7 @@
                         "objective": "lightning"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
@@ -50,27 +50,27 @@
                         "objective": "lightning"
                       }
                     }
-                  ],                  
+                  ],
                   "color": "gray",
                   "bold": false,
                   "italic": false
                 },
                 {
-                  "text":""
+                  "text": ""
                 },
                 {
-                  "text":"Shoot a pufferfish that",
-                  "color":"white",
+                  "text": "Shoot a pufferfish that",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"summons a powerful",
-                  "color":"white",
+                  "text": "summons a powerful",
+                  "color": "white",
                   "italic": false
                 },
                 {
-                  "text":"lightning bolt on explosion",
-                  "color":"white",
+                  "text": "lightning bolt on explosion",
+                  "color": "white",
                   "italic": false
                 }
               ]

@@ -21,16 +21,15 @@
                   "bold": true,
                   "italic": false
                 },
-                { 
-                  "score": 
-                  { 
-                    "name": "@s", 
-                    "objective": "money" 
+                {
+                  "score": {
+                    "name": "@s",
+                    "objective": "money"
                   },
                   "color": "white",
                   "bold": false,
                   "italic": false
-                }                
+                }
               ]
             },
             {
@@ -38,23 +37,23 @@
               "entity": "this",
               "lore": [
                 {
-                  "text":"Use your money",
-                  "color":"dark_gray",
+                  "text": "Use your money",
+                  "color": "dark_gray",
                   "italic": true
                 },
                 {
-                  "text":"to buy items",
-                  "color":"dark_gray",
+                  "text": "to buy items",
+                  "color": "dark_gray",
                   "italic": true
                 },
                 {
-                  "text":"from the shop",
-                  "color":"dark_gray",
+                  "text": "from the shop",
+                  "color": "dark_gray",
                   "italic": true
                 },
                 {
-                  "text":"by clicking it",
-                  "color":"dark_gray",
+                  "text": "by clicking it",
+                  "color": "dark_gray",
                   "italic": true
                 }
               ]

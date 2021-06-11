@@ -1,5 +1,5 @@
 # Ran from game:ingame/main
-replaceitem entity @a armor.feet minecraft:chainmail_boots{Enchantments:[{id:"minecraft:binding_curse",lvl:1}],HideFlags:7,Unbreakable:1b,display:{Name:'[{"text":""}]'}}
+item replace entity @a armor.feet with minecraft:chainmail_boots{Enchantments:[{id:"minecraft:binding_curse",lvl:1}],HideFlags:7,Unbreakable:1b,display:{Name:'[{"text":""}]'}}
 kill @e[tag=freeze]
 
 title @a clear
