@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "shoot": {
+            "trigger": "minecraft:shot_crossbow"
+        }
+    },
+    "rewards": {
+        "function": "game:ingame/projectile/shoot"
+    }
+}

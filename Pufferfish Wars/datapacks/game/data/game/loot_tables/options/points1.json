@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Points:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Point Limit",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text":" [",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                },
+                {
+                  "text":"100",
+                  "color":"yellow",
+                  "bold":false,
+                  "italic":false
+                },
+                {
+                  "text":"]",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                }         
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Set the amount of points",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"needed to win the game",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

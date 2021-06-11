@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Armor:1b,HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Armor",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " - [",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                { 
+                  "score": 
+                  { 
+                    "name": "@s", 
+                    "objective": "buy_armor" 
+                  },
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "/5]",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }                
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "buy_armor"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Increase your",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"armor protection",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"by 1 🛡",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

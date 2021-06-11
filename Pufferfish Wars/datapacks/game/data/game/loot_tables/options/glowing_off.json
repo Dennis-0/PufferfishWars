@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Glowing:0b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Glowing",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text":" [",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                },
+                {
+                  "text":"OFF",
+                  "color":"red",
+                  "bold":false,
+                  "italic":false
+                },
+                {
+                  "text":"]",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                }             
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Players have the glowing effect,",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"revealing their locations",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

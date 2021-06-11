@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Info:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Money: ",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                { 
+                  "score": 
+                  { 
+                    "name": "@s", 
+                    "objective": "money" 
+                  },
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }                
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Use your money",
+                  "color":"dark_gray",
+                  "italic": true
+                },
+                {
+                  "text":"to buy items",
+                  "color":"dark_gray",
+                  "italic": true
+                },
+                {
+                  "text":"from the shop",
+                  "color":"dark_gray",
+                  "italic": true
+                },
+                {
+                  "text":"by clicking it",
+                  "color":"dark_gray",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

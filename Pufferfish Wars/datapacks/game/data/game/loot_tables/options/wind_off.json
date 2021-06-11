@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Wind:0b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Wind",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text":" [",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                },
+                {
+                  "text":"OFF",
+                  "color":"red",
+                  "bold":false,
+                  "italic":false
+                },
+                {
+                  "text":"]",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                }           
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Enable wind to move the pufferfish",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"mid-air for extra difficulty",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

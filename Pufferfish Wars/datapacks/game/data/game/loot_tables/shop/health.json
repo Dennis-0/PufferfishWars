@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Health:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Health",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " - [",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                { 
+                  "score": 
+                  { 
+                    "name": "@s", 
+                    "objective": "buy_health" 
+                  },
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "/10]",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }                
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "buy_health"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Increase your",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"maximum health",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"by 1 ❤",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

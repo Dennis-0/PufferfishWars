@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Move:1b,HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Move",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " - [",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                { 
+                  "score": 
+                  { 
+                    "name": "@s", 
+                    "objective": "buy_move" 
+                  },
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "/10]",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+                
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "buy_health"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Increase your",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"maximum travel distance",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"per turn by 10%",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

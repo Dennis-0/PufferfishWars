@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GameItem:1b,Wind:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Wind direction",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }              
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Wind force: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "wind_power",
+                        "objective": "game"
+                      }
+                    }
+                  ],                  
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_concrete_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Mountain:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text":"Mountain",
+                  "color":"white",
+                  "bold":true,
+                  "italic":false
+                },
+                {
+                  "text":" - Terrain",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                }       
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Set the terrain generation to Mountain",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Height difference: High",
+                  "color":"gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

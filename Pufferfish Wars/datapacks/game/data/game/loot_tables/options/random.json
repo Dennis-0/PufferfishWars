@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Random:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text":"Random",
+                  "color":"blue",
+                  "bold":true,
+                  "italic":false
+                },
+                {
+                  "text":" - Terrain",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                }       
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Set the terrain generation to Random",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"for each round",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"(Forest, Mountain, or Desert)",
+                  "color":"gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

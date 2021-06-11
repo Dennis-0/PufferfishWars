@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GameItem:1b,MenuItem:1b,Scatter:1b,Charged:1b,ChargedProjectiles:[{id:\"minecraft:tipped_arrow\",Count:1b}],Enchantments:[{id:\"minecraft:protection\",lvl:1}],HideFlags:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Scatter",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost (1 shot): ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "scatter"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "▪ Shots remaining: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "@s",
+                        "objective": "scatter"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Shoot a pufferfish that",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"explodes on impact with",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"a player, or shortly after",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"touching the ground, ",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"that scatters a couple",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"pufferfishes in any",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"direction on explosion",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Desert:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text":"Desert",
+                  "color":"yellow",
+                  "bold":true,
+                  "italic":false
+                },
+                {
+                  "text":" - Terrain",
+                  "color":"gray",
+                  "bold":false,
+                  "italic":false
+                }       
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":"Set the terrain generation to Desert",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Height difference: Low",
+                  "color":"gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GameItem:1b,Charged:1b,Standard:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b}],HideFlags:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Standard",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text":""
+                },
+                {
+                  "text":"Shoot a pufferfish that explodes",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"on impact with a player, or shortly",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"after touching the ground",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

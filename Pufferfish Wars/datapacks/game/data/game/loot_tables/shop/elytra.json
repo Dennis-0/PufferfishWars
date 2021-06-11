@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Elytra:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Elytra",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "buy_elytra"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"For escaping high places,",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"flying does not add to",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"your travel distance",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

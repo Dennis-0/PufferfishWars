@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GameItem:1b,MenuItem:1b,Shower:1b,Charged:1b,ChargedProjectiles:[{id:\"minecraft:tipped_arrow\",Count:1b}],Enchantments:[{id:\"minecraft:protection\",lvl:1}],HideFlags:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Shower",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost (1 shot): ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "shower"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "▪ Shots remaining: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "@s",
+                        "objective": "shower"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Shoot a pufferfish that",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"splits mid-air, to shower",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"down on your opponents",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

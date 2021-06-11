@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MenuItem:1b,Jump:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "Jump",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " - [",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                { 
+                  "score": 
+                  { 
+                    "name": "@s", 
+                    "objective": "buy_jump" 
+                  },
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "/2]",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+                
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "▪ Cost: ",
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#cost",
+                        "objective": "buy_jump"
+                      }
+                    }
+                  ],                  
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text":""
+                },
+                {
+                  "text":"Increase your",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"jump height",
+                  "color":"white",
+                  "italic": false
+                },
+                {
+                  "text":"by 1 block",
+                  "color":"white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
