@@ -19,4 +19,4 @@ tag @a remove chosen
 
 # repeat for next player in order
 execute if entity @a[tag=!ranked] run schedule function game:lobby/final_scores 1t
-execute unless entity @a[tag=!ranked] run tellraw @a {"text":"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬","strikethrough":true,"bold":true}
+execute unless entity @a[tag=!ranked] run tellraw @a {"text":"                         ","strikethrough":true,"bold":true}

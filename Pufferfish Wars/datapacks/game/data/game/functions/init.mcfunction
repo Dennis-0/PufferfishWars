@@ -1,9 +1,6 @@
 # Ran from #minecraft:load
 
 setworldspawn 505 250 50
-fill -30 0 -30 30 5 30 air replace stone
-
-#scoreboard players set game_id game 1
 
 ## Scoreboard objectives
 # General 

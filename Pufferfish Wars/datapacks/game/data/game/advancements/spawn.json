@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "spawn": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 500,
+                "max": 510
+              },
+              "y": {
+                "min": 250,
+                "max": 260
+              },
+              "z": {
+                "min": 45,
+                "max": 55
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "game:spawn_tp"
+    }
+  }

@@ -4,7 +4,7 @@ execute unless block 50 51 50 dispenser run setblock 50 51 50 dispenser[facing=u
 
 item replace block 50 51 50 container.4 with minecraft:pufferfish{display:{Name:'[{"text":"Start Game","color":"gold","bold":true,"italic":false}]'}}
 execute if entity @p[scores={points=1..}] run item replace block 50 51 50 container.4 with minecraft:pufferfish{display:{Name:'[{"text":"Next Round","color":"gold","bold":true,"italic":false}]'}}
-execute if score #end game matches 1 run item replace block 50 51 50 container.4 with minecraft:pufferfish{display:{Name:'[{"text":"Start New Game","color":"gold","bold":true,"italic":false}]',Lore:['{"text":"this will reset","color":"dark_gray","italic":false}','{"text":"the previous game","color":"dark_gray","italic":false}']}}
+execute if score #end game matches 1 run item replace block 50 51 50 container.4 with minecraft:pufferfish{display:{Name:'[{"text":"Start New Game","color":"gold","bold":true,"italic":false}]',Lore:['{"text":"This will reset","color":"dark_gray","italic":false}','{"text":"the previous game","color":"dark_gray","italic":false}']}}
 
 
 loot replace block 50 51 50 container.0 loot game:options/forest

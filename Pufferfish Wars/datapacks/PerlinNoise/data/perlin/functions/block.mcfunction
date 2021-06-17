@@ -22,12 +22,14 @@ execute if entity @e[tag=mountain,tag=generating] store result entity @e[tag=Pla
 execute if entity @e[tag=desert,tag=generating] store result entity @e[tag=PlaceBlock,limit=1] Pos[1] double 0.001 run scoreboard players get @s perlinOutput
 
 execute at @e[tag=PlaceBlock] run fill ~ 49 ~ ~ 0 ~ air
-execute if entity @e[tag=forest,tag=generating] at @e[tag=PlaceBlock] run fill ~ 1 ~ ~ ~ ~ green_concrete_powder replace air
-execute if entity @e[tag=forest,tag=generating] at @e[tag=PlaceBlock] run setblock ~ 0 ~ green_concrete
-execute if entity @e[tag=mountain,tag=generating] at @e[tag=PlaceBlock] run fill ~ 1 ~ ~ ~ ~ white_concrete_powder replace air
-execute if entity @e[tag=mountain,tag=generating] at @e[tag=PlaceBlock] run setblock ~ 0 ~ white_concrete
-execute if entity @e[tag=desert,tag=generating] at @e[tag=PlaceBlock] run fill ~ 1 ~ ~ ~ ~ sand replace air
+execute if entity @e[tag=forest,tag=generating] at @e[tag=PlaceBlock] run setblock ~ 0 ~ brown_concrete
+execute if entity @e[tag=forest,tag=generating] at @e[tag=PlaceBlock] run fill ~ 1 ~ ~ ~-2 ~ brown_concrete_powder replace air
+execute if entity @e[tag=forest,tag=generating] at @e[tag=PlaceBlock] run fill ~ ~-1 ~ ~ ~ ~ green_concrete_powder replace air
+execute if entity @e[tag=mountain,tag=generating] at @e[tag=PlaceBlock] run setblock ~ 0 ~ brown_concrete
+execute if entity @e[tag=mountain,tag=generating] at @e[tag=PlaceBlock] run fill ~ 1 ~ ~ ~-3 ~ brown_concrete_powder replace air
+execute if entity @e[tag=mountain,tag=generating] at @e[tag=PlaceBlock] run fill ~ ~-2 ~ ~ ~ ~ white_concrete_powder replace air
 execute if entity @e[tag=desert,tag=generating] at @e[tag=PlaceBlock] run setblock ~ 0 ~ smooth_sandstone
+execute if entity @e[tag=desert,tag=generating] at @e[tag=PlaceBlock] run fill ~ 1 ~ ~ ~ ~ sand replace air
 
 kill @e[tag=PlaceBlock]
 

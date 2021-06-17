@@ -29,6 +29,6 @@ tag @a remove cb_used
 
 scoreboard players reset #timer shower
 
-execute unless score players_left game matches ..1 run function game:ingame/find_next
+execute unless score players_left game matches ..1 run schedule function game:ingame/find_next 1t
 
 execute if score players_left game matches ..1 run function game:end

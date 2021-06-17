@@ -16,7 +16,7 @@ tag @a[tag=!spectator] add inGame
 gamemode adventure @a[tag=inGame]
 #clear @a
 execute as @a[tag=inGame] run spreadplayers 50 50 40 45 under 50 true @s
-execute as @a[tag=inGame] at @s if block ~ ~-1 ~ cactus run spreadplayers ~ ~ 0 2 under 50 false @s
+execute as @a[tag=inGame] at @s if block ~ ~-.5 ~ cactus run function game:ingame/cactus_loop
 
 # initial scores
 scoreboard players set @a[tag=inGame] chorus 0
@@ -65,7 +65,7 @@ execute as @a[scores={buy_health=10}] run attribute @s minecraft:generic.max_hea
 
 # initial effects
 effect give @a[tag=inGame] minecraft:hunger 100 255 true
-#effect give @a minecraft:instant_health 1 100 true
+effect give @a minecraft:instant_health 1 100 true
 
 # rank players by total score
 scoreboard players operation #number player_order = #players_total game

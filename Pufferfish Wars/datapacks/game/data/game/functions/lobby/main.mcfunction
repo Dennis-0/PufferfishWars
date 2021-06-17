@@ -15,6 +15,3 @@ execute unless block 50 51 50 dispenser run function game:lobby/options
 
 # cancel detect
 execute as @p[scores={start_cancel=1..}] run function game:lobby/start/cancel
-
-# remove generated stone
-execute if block -1 3 -1 stone run fill -30 0 -30 30 5 30 air replace stone

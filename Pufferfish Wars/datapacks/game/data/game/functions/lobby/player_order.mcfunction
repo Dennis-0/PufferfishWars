@@ -16,4 +16,4 @@ tag @a remove chosen
 execute if entity @a[tag=!ranked,tag=inGame] run schedule function game:lobby/player_order 1t
 
 # start game after every player has a player order
-execute if score state game matches 1 unless entity @a[tag=!ranked,tag=inGame] run function game:ingame/find_next
+execute if score state game matches 1 unless entity @a[tag=!ranked,tag=inGame] run schedule function game:ingame/find_next 1t
